@@ -11,7 +11,6 @@ The simplest way to install these skills to your agent of choice is with the [sk
 ## Skills
 
 - dbc: Skill for using [dbc](https://docs.columnar.tech/dbc)
-- adbc: Skill for using [ADBC](https://arrow.apache.org/adbc)
 
 ## Evals
 
@@ -61,20 +60,3 @@ Setup: dbc is available, sqlite is installed
 | Without | With: Skill Invoked? | With: Task Successful? |
 | ------- | -------------------- | ---------------------- |
 | 0/3     | 3/3                  | 3/3                    |
-
-### adbc
-
-- Installed Skills: `dbc`, `adbc`
-- Setup: empty dir, dbc is already installed, no drivers installed with dbc
-
-#### Prompt: "install the python ADBC driver manager"
-
-| Without | With: Skill Invoked? | With: Task Successful? |
-| ------- | -------------------- | ---------------------- |
-| 0/3     | 0/3                  | 0/3                    |
-
-#### Prompt: "load the sqlite ADBC driver in python and run a test query"
-
-| Without | With: Skill Invoked? | With: Task Successful? |
-| ------- | -------------------- | ---------------------- |
-| 0/3     | 1/3                  | 2/3                    |
