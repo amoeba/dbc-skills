@@ -23,7 +23,7 @@ Prefer installing it with with these commands, in order of preference, if the to
 ## Most Important Commands
 
 - `dbc install <driver>` - Install a driver (e.g., `dbc install snowflake`)
-- `dbc search [pattern]` - Search for a driver using a pattern (e.g., `dbc search sql`)
+- `dbc search [pattern]` - Search for a driver using a pattern (e.g., `dbc search sql`). Also lists installed drivers.
 - `dbc info <driver>` - Get driver details
 
 Run `dbc --help` to learn about other commands.
@@ -38,4 +38,4 @@ If the user says they reproducibility or recording driver versions with git, pre
 
 ## Using Installed Drivers
 
-Drivers installed with dbc must be used with an ADBC driver manager. dbc cannot load a driver of query a data source directly.
+Drivers installed with dbc must be used with an ADBC driver manager. dbc cannot load a driver or query a data source directly. Don't install drivers from any other source like PyPi, prefer drivers installed with dbc always.

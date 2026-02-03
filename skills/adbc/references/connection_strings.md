@@ -54,7 +54,7 @@ Example: `snowflake://jane.doe:MyS3cr3t!@myorg-account1/ANALYTICS_DB/SALES_DATA?
 
 ## sqlite
 
-The SQLite driver doesn't accept a proper URI but it's `uri` argument takes the path to an SQLite database to create or open.
+The SQLite driver doesn't accept a proper URI but its `uri` argument takes the path to an SQLite database to create or open.
 
 Pattern: `[dbpath].sqlite`
 

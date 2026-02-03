@@ -5,7 +5,7 @@ This document provides a summary of the ADBC driver manager implementations.
 Each example has two parameters:
 
 - `<driver>`: The name of the driver. Installed with the dbc command line tool.
-- `<connection-uri>` The details of the database connection. Users often specify these in code or in .env files in their repo.
+- `<connection-uri>`: The details of the database connection. Users often specify these in code or in .env files in their repo.
 
 The driver must be installed with dbc before use.
 
