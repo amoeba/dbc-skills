@@ -6,7 +6,7 @@ Agent [skills](https://agentskills.io) for [dbc](https://docs.columnar.tech/dbc)
 
 The simplest way to install these skills to your agent of choice is with the [skills](https://www.npmjs.com/package/skills) package:
 
-`npx skills add columnar-tech/dbc-skills`
+`npx skills add amoeba/dbc-skills`
 
 ## Skills
 
