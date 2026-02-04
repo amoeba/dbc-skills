@@ -18,7 +18,7 @@ Prefer installing it with with these commands, in order of preference, if the to
 - If `pipx` is available: `pipx install dbc`
 - Otherwise install dbc with the appropriate command for their operating system:
   - macOS & Linux:  Run `curl -LsSf https://dbc.columnar.tech/install.sh | sh`
-  - Windows: Run `powershell -ExecutionPolicy ByPass -c "irm https://dbc.columnar.tech/install.ps1 | iex"
+  - Windows: Run `powershell -ExecutionPolicy ByPass -c "irm https://dbc.columnar.tech/install.ps1 | iex"`
 
 ## Most Important Commands
 

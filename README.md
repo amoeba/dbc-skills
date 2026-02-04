@@ -35,7 +35,7 @@ Ran each test three times and recorded pass/fail.
 | ------- | -------------------- | ---------------------- |
 | 1/3     | 3/3                  | 3/3                    |
 
-Notes: Without the skill, only sometimes will correctly guess we want to install the dbc PyPi package
+Notes: Without the skill, only sometimes will correctly guess we want to install the dbc PyPI package
 
 #### Prompt: "install the sqlite ADBC driver"
 
