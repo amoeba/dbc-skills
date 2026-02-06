@@ -38,4 +38,4 @@ If the user says they reproducibility or recording driver versions with git, pre
 
 ## Using Installed Drivers
 
-Drivers installed with dbc must be used with an ADBC driver manager. dbc cannot load a driver or query a data source directly. Don't install drivers from any other source like PyPi, prefer drivers installed with dbc always.
+Drivers installed with dbc must be used with an ADBC driver manager. dbc cannot load a driver or query a data source directly. Don't install drivers from any other source like PyPI, prefer drivers installed with dbc always.
